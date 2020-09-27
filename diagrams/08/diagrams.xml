@@ -1,41 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2020-09-27T03:50:41.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.5" etag="dij-dTzf-n4-pXZ_Z3ob" type="github">
-  <diagram id="0" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-09-27T09:22:05.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="OumAn5gK9vqt7jboTUhM" version="13.7.5" type="github" pages="2">
+  <diagram id="0" name="Hooks Intro">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-1" value="&lt;font style=&quot;font-size: 48px&quot;&gt;&lt;b&gt;Hooks System&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-1" value="&lt;font style=&quot;font-size: 48px&quot;&gt;&lt;b&gt;Hooks System&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="40" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J4psyhN_PpP-_sZHXrAu-2" target="J4psyhN_PpP-_sZHXrAu-3">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="J4psyhN_PpP-_sZHXrAu-2" target="J4psyhN_PpP-_sZHXrAu-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-2" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useState&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-2" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useState&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" parent="1" vertex="1">
           <mxGeometry x="140" y="110" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use &lt;b&gt;state &lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use &lt;b&gt;state &lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="110" width="520" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J4psyhN_PpP-_sZHXrAu-5" target="J4psyhN_PpP-_sZHXrAu-7">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="J4psyhN_PpP-_sZHXrAu-5" target="J4psyhN_PpP-_sZHXrAu-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-5" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useEffect&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-5" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useEffect&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" parent="1" vertex="1">
           <mxGeometry x="140" y="250" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J4psyhN_PpP-_sZHXrAu-6" target="J4psyhN_PpP-_sZHXrAu-8">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="J4psyhN_PpP-_sZHXrAu-6" target="J4psyhN_PpP-_sZHXrAu-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-6" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useRef&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-6" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useRef&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" parent="1" vertex="1">
           <mxGeometry x="140" y="390" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-7" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use &lt;i&gt;something like&lt;/i&gt;&lt;b&gt; Lifecycle&amp;nbsp;&lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-7" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use &lt;i&gt;something like&lt;/i&gt;&lt;b&gt; Lifecycle&amp;nbsp;&lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="250" width="520" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-8" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use to create a &lt;b&gt;&quot;ref&quot;&amp;nbsp;&lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-8" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use to create a &lt;b&gt;&quot;ref&quot;&amp;nbsp;&lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="390" width="520" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="J4psyhN_PpP-_sZHXrAu-11" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Hooks are a way to write reusable code, instead of more Classique&amp;nbsp;like inheritance.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-11" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Hooks are a way to write reusable code, instead of more Classique&amp;nbsp;like inheritance.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" parent="1" vertex="1">
           <mxGeometry x="150" y="590" width="890" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="j1i_YExT1-zZMP55lvtG" name="Primitive Vs Custom">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-0" />
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-1" parent="L-eBk-zMfaskR_STm3Zr-0" />
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Primitive Hooks&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="240" y="80" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D1FFF6;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="50" y="140" width="690" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useState&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="70" y="180" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useEffect&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="280" y="180" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useDebug&lt;br&gt;Value&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="60" y="700" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useReducer&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="60" y="360" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useRef&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="60" y="530" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useCallback&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="280" y="360" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useImperative Handle&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="290" y="530" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useLayout&lt;br&gt;Effect&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="540" y="530" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useMemo&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="540" y="350" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;useContext&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="540" y="180" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D1FFF6;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="810" y="340" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-18" value="&lt;font style=&quot;font-size: 24px&quot;&gt;useTranslate&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFC96;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="830" y="350" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFC96;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="830" y="440" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-22" value="&lt;span style=&quot;font-size: 24px&quot;&gt;useState&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="855" y="460" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-23" value="&lt;span style=&quot;font-size: 24px&quot;&gt;useEffect&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="855" y="520" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L-eBk-zMfaskR_STm3Zr-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;Custom Hooks&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="L-eBk-zMfaskR_STm3Zr-1">
+          <mxGeometry x="790" y="280" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
