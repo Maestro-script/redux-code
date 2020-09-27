@@ -1,1 +1,43 @@
-<mxfile userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" version="9.3.2" editor="www.draw.io" type="github"><diagram>UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-27T03:50:41.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.5" etag="dij-dTzf-n4-pXZ_Z3ob" type="github">
+  <diagram id="0" name="Page-1">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-1" value="&lt;font style=&quot;font-size: 48px&quot;&gt;&lt;b&gt;Hooks System&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J4psyhN_PpP-_sZHXrAu-2" target="J4psyhN_PpP-_sZHXrAu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-2" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useState&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="110" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use &lt;b&gt;state &lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="110" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J4psyhN_PpP-_sZHXrAu-5" target="J4psyhN_PpP-_sZHXrAu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-5" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useEffect&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J4psyhN_PpP-_sZHXrAu-6" target="J4psyhN_PpP-_sZHXrAu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-6" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;useRef&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-7" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use &lt;i&gt;something like&lt;/i&gt;&lt;b&gt; Lifecycle&amp;nbsp;&lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-8" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Function that lets you use to create a &lt;b&gt;&quot;ref&quot;&amp;nbsp;&lt;/b&gt;in a functional component&lt;/font&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J4psyhN_PpP-_sZHXrAu-11" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Hooks are a way to write reusable code, instead of more Classique&amp;nbsp;like inheritance.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFCFF;" vertex="1" parent="1">
+          <mxGeometry x="150" y="590" width="890" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
